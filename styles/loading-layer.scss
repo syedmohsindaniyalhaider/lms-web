@@ -1,0 +1,14 @@
+.loading-layer {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    .loading-text {
+        margin-top: 20px;
+        font-size: 18px;
+        color: #131414;
+    }
+}
